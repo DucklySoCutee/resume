@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veerawat Posayanun - Online Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        header {
+            border-bottom: 2px solid #eef2f5;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        h1 {
+            color: #1a2a3a;
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+        }
+        .address {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        section {
+            margin-bottom: 25px;
+        }
+        h2 {
+            color: #0284c7;
+            font-size: 1.3rem;
+            border-bottom: 2px solid #0284c7;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #444;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+        .item-title {
+            font-weight: bold;
+            color: #222;
+        }
+        .item-sub {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 1. Name & Address -->
+        <header>
+            <h1>Veerawat Posayanun</h1>
+            <div class="address">
+                📍 123/45 Sukhumvit Road, Khlong Toei, Bangkok 10110, Thailand<br>
+                ✉️ veerawat.posayanun@email.com | 📞 +66 81 234 5678
+            </div>
+        </header>
+
+        <!-- 2. Profile Statement -->
+        <section>
+            <h2>Profile Statement</h2>
+            <p>A highly ambitious, goal-oriented, and dedicated undergraduate student with a strong drive to excel in a professional business environment. Highly passionate about continuous learning, problem-solving, and adaptability. Possesses strong discipline, team communication skills, and an eagerness to overcome new challenges and contribute maximum effort to team success.</p>
+        </section>
+
+        <!-- 3. Work Experience -->
+        <section>
+            <h2>Work Experience</h2>
+            <div class="item">
+                <div class="item-title">Administrative & Operations Intern</div>
+                <div class="item-sub">ABC Business Solutions Co., Ltd. | June 2023 – August 2023</div>
+                <ul>
+                    <li>Assisted the team in managing daily administrative documentation and data entry tasks.</li>
+                    <li>Coordinated internal communication between departments to ensure smooth operations.</li>
+                    <li>Demonstrated fast learning ability and high reliability in completing assigned tasks on time.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="item-title">Student Activity Coordinator</div>
+                <div class="item-sub">University Student Union | 2022 – Present</div>
+                <ul>
+                    <li>Co-organized university events and student orientation programs for over 300 participants.</li>
+                    <li>Managed team tasks, stage schedules, and sound system preparations during university events.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 4. Education -->
+        <section>
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-title">Bachelor of Business Administration (B.B.A.) / Business English</div>
+                <div class="item-sub">University Name, Thailand | 2021 – Present</div>
+                <p>Relevant Coursework: Business Communication, Management Principles, Digital Marketing, Team Leadership.</p>
+            </div>
+        </section>
+
+        <!-- 5. Interests / Hobbies -->
+        <section>
+            <h2>Interests & Hobbies</h2>
+            <ul>
+                <li><strong>Music & Performance:</strong> Playing musical instruments (Guitar/Keyboards), music production, and sound design.</li>
+                <li><strong>Personal Development:</strong> Self-improvement podcasts, learning digital business tools, and practicing English communication.</li>
+                <li><strong>Leisure Activities:</strong> Live music concerts, sports, and creative content creation.</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
